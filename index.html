@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header>
+        <span class="material-icons md-18">favorite</span><span class="material-icons md-24">favorite</span>
+        <h1 class="header__text">AluraGeek</h1><span class="material-icons md-24">favorite</span><span
+            class="material-icons md-18">favorite</span>
+        <!--  <div class="content__search">
+            <input type="search" placeholder="Buscar" id="buscar" class="content__search__input" data-busqueda>
+            <button class="content__search__btn" data-boton-busqueda></button>
+        </div> -->
+    </header>
+    <main>
+        <section>
+            <h1>MIS PRODUCTOS</h1>
+            <ul class="content__list" data-product>
+            </ul>
+
+        </section>
+
+
+        <section>
+            <form class="content__form" data-form>
+                <h1>AGREGAR PRODUCTO</h1>
+                <fieldset>
+                    <input name="name" type="text" class="form__control" required placeholder="nombre..." id='name'
+                        data-name />
+                    <span class="message-error"></span>
+                </fieldset>
+
+                <fieldset>
+                    <input name="price" type="number" class="form__control" required placeholder="precio..." id='price'
+                        data-price />
+                    <span class="message-error"></span>
+                </fieldset>
+
+
+                <fieldset>
+                    <input name="image" type="url" class="form__control" required placeholder="url de la imagen..."
+                        id='image' data-image />
+
+                    <span class="message-error"></span>
+                </fieldset>
+
+
+
+
+
+
+
+                <div class="content__btn">
+                    <button type="submit" class="btn btn__send">Enviar</button>
+                    <button type="reset" class="btn btn__clean">Limpiar</button>
+
+                </div>
+            </form>
+            <p class="parrafoEnviar"></p>
+        </section>
+
+    </main>
+    <footer class="content__footer">
+        <div class="content__footer__logo">
+            <span class="material-icons">favorite</span><span class="material-icons md-18">favorite</span>
+            <h1 class="content__footer__title">AluraGeek</h1> <span class="material-icons md-18">favorite</span><span
+                class="material-icons md-24">favorite</span>
+        </div>
+
+        <h5 class="content__footer__subtitle1">DESARROLLADO POR airam66</h5>
+        <h6 class="content__footer__subtitle2">ALURA LATAM 2024</h6>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/controllers/main.js"></script>
+
+
+</body>
+
+</html>

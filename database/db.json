@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "name": "Smart TV Led 50' UHD Samsung ",
+      "price": "500.000",
+      "image": "https://images.fravega.com/f500/9fb4065baef64929f719c47326a647ae.png",
+      "id": "1"
+    },
+    {
+      "name": "Smart TV Led 50' UHD Samsung",
+      "price": "543.000",
+      "image": "https://images.fravega.com/f500/9fb4065baef64929f719c47326a647ae.png",
+      "id": "2"
+    },
+    {
+      "name": "Smart TV Full HD Samsung 43",
+      "price": "420.000",
+      "image": "https://images.fravega.com/f300/0ec3af99701dbf0665ec61ea3816b028.jpg.webp",
+      "id": "3"
+    }
+
+  ]
+}
