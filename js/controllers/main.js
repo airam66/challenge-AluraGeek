@@ -17,10 +17,10 @@ function createItem(name, price, image, id) {
     item.innerHTML = `
     <figure>
        <img src="${image}" alt="${name}" class="item__img">
+       <h3>${name}</h3>
     </figure>
 
-    <div class="content__list__item_info">
-        <h3>${name}</h3>
+    <div class="content__list__item__info">
         <p>$ ${price}</p>
         <button data-id="${id}" type="button" name="btn-delete" ><span class="material-icons md-24 btn__delete">delete</span></button>
     </div>`;

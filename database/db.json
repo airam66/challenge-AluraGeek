@@ -1,23 +1,29 @@
 {
   "products": [
     {
-      "name": "Smart TV Led 50' UHD Samsung ",
-      "price": "500.000",
-      "image": "https://images.fravega.com/f500/9fb4065baef64929f719c47326a647ae.png",
+      "name": "Game Boy Classic ",
+      "price": "60.00",
+      "image": "../assets/imagen1.png",
       "id": "1"
     },
     {
-      "name": "Smart TV Led 50' UHD Samsung",
-      "price": "543.000",
-      "image": "https://images.fravega.com/f500/9fb4065baef64929f719c47326a647ae.png",
+      "name": "Stormtrooper",
+      "price": "60.00",
+      "image": "../assets/imagen2.png",
       "id": "2"
     },
     {
-      "name": "Smart TV Full HD Samsung 43",
-      "price": "420.000",
-      "image": "https://images.fravega.com/f300/0ec3af99701dbf0665ec61ea3816b028.jpg.webp",
+      "name": "Game Boy Classic",
+      "price": "60.00",
+      "image": "../assets/imagen1.png",
       "id": "3"
-    }
+    },
 
+    {
+      "name": "Stormtrooper",
+      "price": "60.00",
+      "image": "../assets/imagen2.png",
+      "id": "2"
+    }
   ]
 }
